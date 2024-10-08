@@ -51,4 +51,4 @@ echo "${conf}"
 [ -t 1 ] && echo "########### КОНЕЦ КОНФИГА ###########"
 
 conf_base64=$(echo -n "${conf}" | base64 -w 0)
-echo "Скачать конфиг файлом: https://raw.githubusercontent.com/KOMANDNY/warpjp/main/Warp%20jp
+echo "Скачать конфиг файлом: https://github.com/KOMANDNY/warpjp.git
