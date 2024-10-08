@@ -52,3 +52,4 @@ echo "${conf}"
 
 conf_base64=$(echo -n "${conf}" | base64 -w 0)
 echo "Скачать конфиг файлом: https://github.com/KOMANDNY/warpjp.git
+
