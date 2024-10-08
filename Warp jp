@@ -35,7 +35,7 @@ H2 = 2
 H3 = 3
 H4 = 4
 Address = ${client_ipv4}, ${client_ipv6}
-DNS = 1.1.1.1, 1:1:64:0::1111, 1.0.0.1, 1:1:64:0::1001
+DNS = 8.8.8.8, 1:1:64:0::1111, 1.0.0.1, 1:1:64:0::1001
 
 [Peer]
 PublicKey = ${peer_pub}
@@ -51,4 +51,4 @@ echo "${conf}"
 [ -t 1 ] && echo "########### КОНЕЦ КОНФИГА ###########"
 
 conf_base64=$(echo -n "${conf}" | base64 -w 0)
-echo "Скачать конфиг файлом: https://sertan.github.io/downloader.html?filename=WARP.conf&contentjp=${conf_base64}"
+echo "Скачать конфиг файлом: https://github.com/KOMANDNY/wawrp
